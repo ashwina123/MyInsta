@@ -7,16 +7,18 @@
            <img src="https://scontent-maa2-1.cdninstagram.com/v/t51.2885-19/s150x150/19436984_127324097765637_6174526348590055424_a.jpg?_nc_ht=scontent-maa2-1.cdninstagram.com&_nc_ohc=zIwM1wvmymgAX_53ZKs&oh=3aca85fec4f0f7938117f311b78f365a&oe=5F4D46D3" class="rounded-circle"> 
         </div>
         <div class="col-md-9 pt-3">
-            <div><h2>ashwinachandran</h2></div>
+            <div><h2>{{$user -> username}}</h2></div>
             <div class="d-flex pt-3">
                 <div class="pr-5"><strong>4 </strong>posts</div>
                 <div class="pr-5"><strong>136 </strong>followers</div>
                 <div class="pr-5"><strong>436 </strong>following</div>
             </div>
-            <div class="pt-3"><h5>Ashwina Chandran</h5></div>
+            <div class="pt-3"><h5>{{$user->profile->title}}</h5></div>
+            <div class="pt-1">{{$user->profile->description}}</div>
+            <div class="pt-3"><a href="<?php echo"{{$user->profile->url}}"?>";>{{$user->profile->url}}</a></div>
         </div> 
     </div>
-    <div class="row">
+    <div class="row pt-5">
         <div class="col-md-4">
             <img alt="Photo by Ashwina Chandran on September 22, 2019. Image may contain: plant, flower, outdoor and nature" class="FFVAD" decoding="auto" sizes="293px" srcset="https://scontent-maa2-1.cdninstagram.com/v/t51.2885-15/e35/c180.0.1079.1079a/s150x150/70356539_564127090996792_532026024366725820_n.jpg?_nc_ht=scontent-maa2-1.cdninstagram.com&amp;_nc_cat=104&amp;_nc_ohc=yqCEjq9beAIAX_ZzTbs&amp;oh=7521ea9a35a36c1cdd84915635fa4ddb&amp;oe=5F4FB30A 150w,https://scontent-maa2-1.cdninstagram.com/v/t51.2885-15/e35/c180.0.1079.1079a/s240x240/70356539_564127090996792_532026024366725820_n.jpg?_nc_ht=scontent-maa2-1.cdninstagram.com&amp;_nc_cat=104&amp;_nc_ohc=yqCEjq9beAIAX_ZzTbs&amp;oh=21a35566cb53b5498c1715000df06331&amp;oe=5F50C23D 240w,https://scontent-maa2-1.cdninstagram.com/v/t51.2885-15/e35/c180.0.1079.1079a/s320x320/70356539_564127090996792_532026024366725820_n.jpg?_nc_ht=scontent-maa2-1.cdninstagram.com&amp;_nc_cat=104&amp;_nc_ohc=yqCEjq9beAIAX_ZzTbs&amp;oh=6262fc996b9b470896d81579e76cc180&amp;oe=5F4D6005 320w,https://scontent-maa2-1.cdninstagram.com/v/t51.2885-15/e35/c180.0.1079.1079a/s480x480/70356539_564127090996792_532026024366725820_n.jpg?_nc_ht=scontent-maa2-1.cdninstagram.com&amp;_nc_cat=104&amp;_nc_ohc=yqCEjq9beAIAX_ZzTbs&amp;oh=b6759db4fe1d743b2b7214db5ecc4043&amp;oe=5F503E59 480w,https://scontent-maa2-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c180.0.1079.1079a/s640x640/70356539_564127090996792_532026024366725820_n.jpg?_nc_ht=scontent-maa2-1.cdninstagram.com&amp;_nc_cat=104&amp;_nc_ohc=yqCEjq9beAIAX_ZzTbs&amp;oh=b92b9fb1c94729d924ffe56a4a83a651&amp;oe=5F4E84EE 640w" src="https://scontent-maa2-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c180.0.1079.1079a/s640x640/70356539_564127090996792_532026024366725820_n.jpg?_nc_ht=scontent-maa2-1.cdninstagram.com&amp;_nc_cat=104&amp;_nc_ohc=yqCEjq9beAIAX_ZzTbs&amp;oh=b92b9fb1c94729d924ffe56a4a83a651&amp;oe=5F4E84EE" style="object-fit: cover;">
         </div>
